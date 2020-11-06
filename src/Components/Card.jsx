@@ -2,7 +2,8 @@ import React from "react";
 
 export default function Card( {data} ) {
     const {
-        id, 
+        id,
+        parcel_id,
         user_name, 
         user_phone, 
         status, 
@@ -13,10 +14,12 @@ export default function Card( {data} ) {
     } = data;
 
     return(
-        <article className= "card">
+        <div>
+         <article className= "card">
             <h1>
-                <span> #{id} </span>
+                <span> Shipment id: {id} </span>
             </h1>
+            <p> Parcel_id: {parcel_id}</p>
             <p>User-name: {user_name} </p>
             <p> Phone: {user_phone} </p>
             <p> Status: {status} </p>
@@ -25,5 +28,8 @@ export default function Card( {data} ) {
             <p> Location: {location_name} </p>
             <p> Last Updated: {last_updated} </p>
         </article>
+        <br/>
+        </div>
+        
     );
 }

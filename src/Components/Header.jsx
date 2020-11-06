@@ -1,7 +1,6 @@
 import React from "react";
 
-import dhl from "../assets/images/dhl.png"; 
-import "../Style/header.css";
+import dhl from "../assets/images/logo.png"; 
 export default function Header(){
     return(
         <div>

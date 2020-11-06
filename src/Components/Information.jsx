@@ -33,10 +33,9 @@ export default function Information(){
     });
 
     return(
-        <div>
-            <h1> React {status}</h1>
+        <div className= "divide">
             {status === 0 ? <p>Loading...</p> : null}
-            {status === 1 ? <p>{Cards}</p> : null}
+            {status === 1 ? <p className= "box">{Cards}</p> : null}
             {status === 2 ? <p>Cannot find data</p> : null}
         </div>
     );
