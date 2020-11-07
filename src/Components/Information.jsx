@@ -1,5 +1,6 @@
 import {useEffect, useState} from "react";
 import Card from "../Components/Card";
+import Header from "./Header";
 
 export default function Information(){
 
@@ -30,7 +31,9 @@ export default function Information(){
 
     const Cards = information.map((item) => {
         return <Card key = {item.id} data = {item} />;
+    
     });
+
 
     return(
         <div className= "divide">
