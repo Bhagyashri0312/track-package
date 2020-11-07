@@ -1,14 +1,30 @@
 import React from "react";
-
-import dhl from "../assets/images/logo.png"; 
+import { FaUserCircle } from 'react-icons/fa';
+import logo from "../assets/images/logo.png"; 
 export default function Header(){
+   
     return(
-        <div>
+        
             <header className= "header">
-            <img src= {dhl} alt = "Logo" />
+                <div className="grid">
+            <article className="logo">
+                <img className="photo" src= {logo} alt = "Logo"  />
+            </article>
+            
+
+            <article className="icon">
+                < FaUserCircle  size="2em" color="purple" />
+                
+            </article>
+           <article className="text">
+               <h4 className = "text"> John Doe </h4>
+               </article>
+          
+            </div>
+            
             </header>
             
-        </div>
+       
             
         
     );
