@@ -1,6 +1,9 @@
+//React core
 import {useEffect, useState} from "react";
+
+//Componenets
 import Card from "../Components/Card";
-import Header from "./Header";
+
 
 export default function Information(){
 

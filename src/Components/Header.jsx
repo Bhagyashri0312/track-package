@@ -1,9 +1,13 @@
+//React core
 import React from "react";
+//Icons 
 import { FaUserCircle } from 'react-icons/fa';
 import { FaMobileAlt } from "react-icons/fa";
+//Media assets
 import logo from "../assets/images/logo.png"; 
+
 export default function Header(){
-   
+   //Render
     return(
         
             <header className= "header">

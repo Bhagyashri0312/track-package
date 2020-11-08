@@ -1,4 +1,6 @@
+/* import google font*/
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 
 body {
     display: inline-block;
@@ -9,36 +11,12 @@ body {
 
     }
 
-    @media (min-width: 750px){
-      body {
-      display: block;
-        background-color: #9ab3f5;
-        background-size: auto;
-        margin: 10px;
-    
-        }
-    }
-
-
-  @media only screen and (min-width: 660px) {
-   .box{
-     margin: auto;
-     width: 50%;
-     padding: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 50px;
-    text-align: center;
-
-  }
-}
-
-  .card {
-    border: 2px solid black;
-    border-radius: 8px;
-    text-align: left;
-    padding-left: 10px;
-    line-height: 1.5em;
+    .card {
+      border: 2px solid black;
+      border-radius: 8px;
+      text-align: left;
+      padding-left: 10px;
+      line-height: 1.5em;
     }
 
   .Parcel_id{
@@ -70,5 +48,27 @@ body {
   color:#463333
 }
 
+@media (min-width: 750px){
+  body {
+    display: block;
+    background-color: #9ab3f5;
+    background-size: auto;
+    margin: 10px;
+
+    }
+}
+
+
+@media only screen and (min-width: 660px) {
+  .box{
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    text-align: center;
+  }
+}
 
   
