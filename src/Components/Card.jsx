@@ -15,18 +15,24 @@ export default function Card( {data} ) {
 
     return(
         <div>
+            
          <article className= "card">
             <h1>
                 <span> Shipment id: {id} </span>
             </h1>
-            <p> Parcel_id: {parcel_id}</p>
-            <p>User-name: {user_name} </p>
-            <p> Phone: {user_phone} </p>
-            <p> Status: {status} </p>
-            <p> Estimated time of delivery: {eta} </p>
-            <p> Sender Name: {sender} </p>
-            <p> Location: {location_name} </p>
-            <p> Last Updated: {last_updated} </p>
+            <hr/>
+            <span className="Parcel_id"> Parcel_id: </span> 
+            <span>{parcel_id} </span> <br/>
+            <span className="Status"> Status:  </span>  
+            <span>{status}</span>  <br/>
+            <span className="ETA"> ETA: </span>  
+            <span>{eta}</span> <br/>
+            <span className="Sender-Name"> Sender-Name:  </span> 
+            <span>{sender} </span> <br/>
+            <span className="Location"> Location: </span> 
+            <span>{location_name}</span> <br/>
+            <span className="Last-Updated"> Last-Updated: </span> 
+            <span>{last_updated} </span> <br/>
         </article>
         <br/>
         </div>
