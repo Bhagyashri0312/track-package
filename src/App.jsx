@@ -1,6 +1,4 @@
 
-
-
 import React from "react";
 import Header from "./Components/Header"
 import Information from "./Components/Information";
@@ -14,6 +12,7 @@ export default function App() {
       <div>
         <Header />
       </div>
+
       <div>
         <Information />
       </div>

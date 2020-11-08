@@ -1,5 +1,6 @@
 import React from "react";
 import { FaUserCircle } from 'react-icons/fa';
+import { FaMobileAlt } from "react-icons/fa";
 import logo from "../assets/images/logo.png"; 
 export default function Header(){
    
@@ -13,12 +14,18 @@ export default function Header(){
             
 
             <article className="icon">
-                < FaUserCircle  size="2em" color="purple" />
+                <ul>
+                    <li>
+                        < FaUserCircle  size="1em" color="purple" /> John Doe
+                    </li>
+                    <li>
+                        < FaMobileAlt size="1em" color="purple" /> +46 729478015
+                    </li>
+                </ul>
                 
             </article>
-           <article className="text">
-               <h4 className = "text"> John Doe </h4>
-               </article>
+
+        
           
             </div>
             

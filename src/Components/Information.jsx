@@ -37,6 +37,7 @@ export default function Information(){
 
     return(
         <div className= "divide">
+            <h1 className="title"> Order Details </h1>
             {status === 0 ? <p>Loading...</p> : null}
             {status === 1 ? <p className= "box">{Cards}</p> : null}
             {status === 2 ? <p>Cannot find data</p> : null}

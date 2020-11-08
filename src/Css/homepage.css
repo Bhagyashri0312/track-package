@@ -1,17 +1,18 @@
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 body {
     display: inline-block;
-    background-color: rgb(236, 141, 112);
+    background-color:#9ab3f5;
     background-size: auto;
     margin: 10px;
+    font-family: 'PT Sans', sans-serif;
 
     }
 
     @media (min-width: 750px){
       body {
       display: block;
-        background-color: rgb(236, 141, 112);
+        background-color: #9ab3f5;
         background-size: auto;
         margin: 10px;
     
@@ -34,15 +35,40 @@ body {
 
   .card {
     border: 2px solid black;
-    text-align: center;
+    border-radius: 8px;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 1.5em;
     }
 
-  
+  .Parcel_id{
+    word-spacing: 3.8em;
+  }
 
-  
+  .Status{
+    word-spacing: 5em;
+  }
 
-  
+  .ETA{
+    word-spacing: 5.9em;
+  }
 
+  .Sender-Name{
+    word-spacing: 1.7em;
+  }
+
+  .Location{
+    word-spacing: 3.9em;
+  }
+
+  .Last-Updated{
+    word-spacing: 1.7em;  
+  }
+  
+.title{
+  text-align: center;
+  color:#463333
+}
 
 
   
