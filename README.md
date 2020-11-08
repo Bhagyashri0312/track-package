@@ -5,17 +5,17 @@ with the details they need to know like order status, ETAs, sender, locatuion na
 This includes all the current practices to avoid having any problem with current libraries like:Node, Webpack, React.
 The App supports mobile and desktop browser layouts.
 
-# Instructions
+## Instructions
 
 1. To install this project write npm install in the console to get all the Node dependecies beforehand.
 2. To run the project write npm start in the console to start the project.
 
-# Resources
+## Resources
 
 This is the link to the json data that is used for tracking.
 API Endpoint: https://my.api.mockaroo.com/orders.json?key=e49e6840
 
-# Milestone
+## Milestone
 
 Trying to add solution to support multiple countries and languages. 
 
