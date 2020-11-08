@@ -1,5 +1,4 @@
 .header {
-    
     margin: 5px;
     height: 70px;
     background-color: white;
@@ -10,25 +9,13 @@
     border-radius: 10px;
   }
 
-  @media (min-width: 750px){
-      .header{
-    height: 90px;
-    background-color: white;
-    background-size: cover;
-    color: #212121;
-    font-family: "Roboto", sans-serif;
-    display: block;
-    margin-left: 100px;
-    margin-right: 100px;
-  }
+  .icon li{
+    list-style-type: none;
 }
-
-
 
 .grid{
     display: flex;
     align-items: flex-start;
-
 }
 
 .icon{
@@ -39,37 +26,46 @@
    padding: 1px;
     width: 140px;
     height: 50px;
-    
+    }
+
+/*For laptop view*/
+
+@media (min-width: 750px){
+.header{
+  height: 85px;
+  background-color: white;
+  background-size: cover;
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  display: block;
+  margin-left: 200px;
+  margin-right: 200px;
+}
 }
 
 @media (min-width: 750px) {
 
 .logo{
-    flex: 1px;
-   
-}
+    flex: 0.05rem;
+    justify-content:flex-end;
+   }
 
 .icon{
-    padding-bottom: 1px;
-}
-
-
+    justify-content:flex-end ;
+    }
 
 .grid{
     display: flex;
     justify-content: space-around;
-}
+    }
 
 .photo{
     padding: 3px;
-     width: 250px;
+     width: 200px;
      height: 80px;
-     
- }
+     }
 
 }
-.icon li{
-    list-style-type: none;
-}
+
 
 

@@ -1,22 +1,18 @@
 
 import React from "react";
-import Header from "./Components/Header"
-import Information from "./Components/Information";
+import Homepage from "./Components/Homepage";
 import "./Css/Style.css";
 
 export default function App() {
   
   return (
-    <aside className ="App">
+    
       
       <div>
-        <Header />
+        <Homepage />
       </div>
 
-      <div>
-        <Information />
-      </div>
-    </aside>
+      
     
   );
 }

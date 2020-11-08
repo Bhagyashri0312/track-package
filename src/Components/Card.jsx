@@ -4,8 +4,6 @@ export default function Card( {data} ) {
     const {
         id,
         parcel_id,
-        user_name, 
-        user_phone, 
         status, 
         eta,
         sender,
